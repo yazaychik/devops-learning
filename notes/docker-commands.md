@@ -24,3 +24,4 @@ docker rmi IMAGE        — удалить образ
 ## Свои образы
 docker build -t NAME .     — собрать образ из Dockerfile
 docker images              — посмотреть все образы
+test
