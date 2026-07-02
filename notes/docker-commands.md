@@ -20,3 +20,7 @@ docker logs NAME        — посмотреть логи
 docker exec -it NAME bash  — зайти внутрь контейнера
 docker rm NAME          — удалить контейнер (должен быть остановлен)
 docker rmi IMAGE        — удалить образ
+
+## Свои образы
+docker build -t NAME .     — собрать образ из Dockerfile
+docker images              — посмотреть все образы
