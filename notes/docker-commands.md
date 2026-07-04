@@ -25,3 +25,10 @@ docker rmi IMAGE        — удалить образ
 docker build -t NAME .     — собрать образ из Dockerfile
 docker images              — посмотреть все образы
 test
+
+## Docker Compose
+docker compose up -d      — запустить все сервисы
+docker compose down       — остановить и удалить
+docker compose ps         — статус сервисов
+docker compose logs NAME  — логи сервиса
+docker compose restart    — перезапустить
