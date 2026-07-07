@@ -8,3 +8,4 @@
 - [ ] CI/CD
 - [ ] Kubernetes
 - [ ] Terraform
+# CI/CD работает!
