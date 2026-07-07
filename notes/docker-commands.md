@@ -32,3 +32,12 @@ docker compose down       — остановить и удалить
 docker compose ps         — статус сервисов
 docker compose logs NAME  — логи сервиса
 docker compose restart    — перезапустить
+
+## GitHub Actions (CI/CD)
+.github/workflows/   — папка с пайплайнами
+on: push             — запускать при пуше
+jobs                 — список задач
+runs-on              — на какой ОС запускать
+steps                — шаги внутри задачи
+uses                 — готовый action из маркетплейса
+run                  — команда которую выполнить
