@@ -3,9 +3,9 @@
 Старт обучения DevOps.
 
 ## Прогресс
-- [ ] Git
-- [ ] Docker
-- [ ] CI/CD
+- [ ✅ ] Git
+- [ ✅ ] Docker
+- [ ✅ ] CI/CD
 - [ ] Kubernetes
 - [ ] Terraform
 # CI/CD работает!
